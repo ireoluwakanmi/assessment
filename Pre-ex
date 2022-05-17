@@ -1,10 +1,13 @@
+#question a
+
 import requests as r
 t = r.get("https://w3schools.com/python/demopage.htm")
 print(t.text)
 
 
 
-
+#question b
+#a scatter graph
 import matplotlib.pyplot as m
 import numpy as n
 x = n.array([5, 10, 15, 20, 25, 30])
